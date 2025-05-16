@@ -2,18 +2,6 @@
 
 A simulated **GPIO module for microcontroller** design in C language, targeting x86_64 systems (Windows). 
 
-## Project Structure
-
-```text
-GPIO-module-design/
-├── main.c          # Application entry point
-├── led.c           # LED control (toggle, blink)
-├── button.c        # Debounce, edge trigger
-├── gpio.h          # Shared types/enums/declarations
-├── .vscode/        # Optional: build tasks config
-├── .gitignore
-└── README.md
-
 ## Features
 
 - Toggle **green LED** on/off with button 1
@@ -37,3 +25,17 @@ GPIO-module-design/
 
 ```bash
 gcc main.c led.c button.c -o gpio.exe
+
+---
+
+## Project Structure
+
+```text
+GPIO-module-design/
+├── main.c          # Application entry point
+├── led.c           # LED control (toggle, blink)
+├── button.c        # Debounce, edge trigger
+├── gpio.h          # Shared types/enums/declarations
+├── .vscode/        # Optional: build tasks config
+├── .gitignore
+└── README.md
